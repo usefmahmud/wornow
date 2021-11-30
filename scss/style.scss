@@ -125,5 +125,26 @@
             }
         }
     }
+
+    .social-icons{
+        position: fixed;
+        bottom: 10px;
+        left: 25px;
+        z-index: 999;
+        display: flex;
+        a{
+            color: #f0f5f9;
+            transition: 0.3s;
+            transition-property: color;
+
+            .icon{
+                font-size: 20px;
+            }
+
+            &:hover{
+                color: #FFAB4C;
+            }
+        }
+    }
 }
 
